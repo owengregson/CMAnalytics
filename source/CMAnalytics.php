@@ -1,3 +1,4 @@
+,?php
 function CMAnalyticsV2($webhookUrl, $username, $avatarUrl, $eventType, $eventIcon, $colorHex, $additionalFields)
 {
     $webhookUrl = $webhookUrl ?: "exit";
@@ -1477,3 +1478,4 @@ function CMAnalyticsV2($webhookUrl, $username, $avatarUrl, $eventType, $eventIco
     curl_close($ch);
     return $response;
 }
+?>

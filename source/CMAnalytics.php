@@ -3,7 +3,7 @@ function CMAnalyticsV2($webhookUrl, $username, $avatarUrl, $eventType, $eventIco
     $webhookUrl = $webhookUrl ?: "exit";
     if($webhookUrl == "exit") return;
     $timeStamp = date("c");
-    $defaultUrl = "https://cdn.discordapp.com/attachments/1190062570422407336/1192949507651010610/CMAnalytics.png?ex=65aaefce&is=65987ace&hm=1ad7c8ae256c65143ca862ad4e4ebab1efa8cbd7b249b823d0a952157c38b095&";
+    $defaultUrl = "https://raw.githubusercontent.com/owengregson/CMAnalytics/main/resources/CMAnalytics.png";
     $username = $username ?: 'CMAnalytics';
     $avatarUrl = $avatarUrl ?: $defaultUrl;
     $eventType = $eventType ?: 'An Event Occurred';
